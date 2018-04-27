@@ -1222,7 +1222,10 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 
 	}
-
+.central {
+	width:40em;
+	margin: 0 auto;
+}
 	.wrapper {
 		@include padding(6em, 0);
 
