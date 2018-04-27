@@ -527,9 +527,13 @@ $baseurl: '{{ site.baseurl }}/images';
 			margin: 0 0 2em 2em;
 			top: 0.25em;
 		}
+		&.center {
+			max-width: 30%;
+		}
 
 		&.left,
-		&.right {
+		&.right,
+		&{
 			max-width: 40%;
 
 			img {
