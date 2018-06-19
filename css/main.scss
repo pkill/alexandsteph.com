@@ -1483,6 +1483,11 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 	}
 
+	/* Photogrid */
+	.photogrid {
+		background-color: _palette(accent7, bg);
+	}
+
 /* Banner */
 
 	#banner {
