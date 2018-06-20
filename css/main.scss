@@ -998,13 +998,23 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 		}
 
-		@include breakpoint(large) {
+		@include breakpoint(xlarge:) {
 			.image {
 				width: 50%;
 			}
 
 			.content {
 				width: 50%;
+			}
+		}
+
+		@include breakpoint(large) {
+			.image {
+				width: 45%;
+			}
+
+			.content {
+				width: 55%;
 			}
 		}
 
