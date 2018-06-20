@@ -1030,7 +1030,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			}
 
 			.content {
-				@include padding(4em, 3em);
+				@include padding(3em, 3em);
 				max-width: none;
 				text-align: center;
 				width: 100%;
