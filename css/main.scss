@@ -1039,7 +1039,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 		@include breakpoint(small) {
 			.content {
-				@include padding(2em, 2em);
+				@include padding(3em, 3em);
 			}
 		}
 	}
